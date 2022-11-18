@@ -14,7 +14,7 @@ final appThemeData = {
   ),
   AppTheme.greenDark: ThemeData(
     brightness: Brightness.dark,
-    primaryColor: Colors.green,
+    primaryColor: Colors.green[700],
   ),
   AppTheme.blueLight: ThemeData(
     brightness: Brightness.light,
@@ -22,6 +22,6 @@ final appThemeData = {
   ),
   AppTheme.blueDark: ThemeData(
     brightness: Brightness.dark,
-    primaryColor: Colors.blue,
+    primaryColor: Colors.blue[700],
   ),
 };
